@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Payment">
+  <test thread-count="5" name="NetBanking">
+    <classes>
+      <class name="demoPkg.ClassFour"/>
+      <class name="demo1.ClassFive"/>
+      <class name="demo1.ClassThree"/>
+      <class name="demoPkg.ClassOne"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Cridit/Debitcard">
+ <classes>
+      <class name="demoPkg.ClassTwo"/>
+      <class name="demo1.ClassSix"/>
+    </classes>
+	</test>
+	</suite> <!-- Suite -->
