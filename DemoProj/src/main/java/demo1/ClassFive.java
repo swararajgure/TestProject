@@ -18,5 +18,6 @@ public class ClassFive {
 	@AfterTest
 	public void testm() {
 		System.out.println("This will executed After every test module in the testng.xml file");
+		System.out.println("hi swa");
 	}
 }
